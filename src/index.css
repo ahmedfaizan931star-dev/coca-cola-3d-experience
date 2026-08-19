@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --brand-red: #F40009; }
+::selection { background: var(--brand-red); color: white; }
+body { cursor: default; -webkit-font-smoothing: antialiased; }
+.text-outline { -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2); color: transparent; }
+.section-height { height: 100vh; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
